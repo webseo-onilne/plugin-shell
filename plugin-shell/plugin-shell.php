@@ -53,7 +53,7 @@ if ( ! class_exists( 'WP_PluginShell' ) ) {
 	class WP_PluginShell {
     
 	/**
-	* constructor
+	* Constructor
 	**/
 	public function __construct() {
 		// @TODO: Define public constructors here
