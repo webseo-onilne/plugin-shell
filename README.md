@@ -1,5 +1,5 @@
 # Shell Plugin
-<p>A plugin to get you started on a new plugin, consists of the basic set-up and configuration. <strong>Fork</strong> then edit accordingly to ajdust as per requirements, remember to rename files appropriately.</p>
+<p>A plugin to get you started on a new plugin, consists of the basic set-up and configuration. <strong>Fork</strong> then edit accordingly to adjust as per requirements, remember to rename files appropriately.</p>
 
 <p><strong>Contents:</strong></p>
 
