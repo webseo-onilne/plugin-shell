@@ -45,22 +45,22 @@ register_activation_hook(__FILE__, 'on_activation');
 register_deactivation_hook(__FILE__, 'on_deactivation');
 
 if ( ! class_exists( 'WP_PluginShell' ) ) {
-		
-		/**
-		 * Localisation
-		 **/
-		load_plugin_textdomain( 'WP_PluginShell', false, dirname( plugin_basename( __FILE__ ) ) . '/' );
-		class WP_PluginShell {
+
+	/**
+	 * Localisation
+	 **/
+	load_plugin_textdomain( 'WP_PluginShell', false, dirname( plugin_basename( __FILE__ ) ) . '/' );
+	class WP_PluginShell {
     
-      /**
-       * constructor
-       **/
-      public function __construct() {
-          // @TODO: Define public constructors here
-      }
-      
-      // Instantiate the plugin class and add it to the set of globals
-      $GLOBALS['WP_PluginShell'] = new WP_PluginShell();
+	/**
+	* constructor
+	**/
+	public function __construct() {
+		// @TODO: Define public constructors here
+	}
+
+	// Instantiate the plugin class and add it to the set of globals
+	$GLOBALS['WP_PluginShell'] = new WP_PluginShell();
       
     }
   
