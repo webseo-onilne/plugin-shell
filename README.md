@@ -9,7 +9,7 @@
     <li>readme file <sup><em>(readme.txt)</em></sup><br>Standardized format file only required if the plugin is intended to be hosted on https://wordpress.org/plugins/</li>
 </ol>
 
-<p><strong>Refernces:</strong></p>
+<p><strong>References:</strong></p>
 
 <ul>
     <li><a href="https://developer.wordpress.org/plugins/">Plugin Handbook</a></li>
